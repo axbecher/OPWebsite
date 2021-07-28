@@ -1,0 +1,197 @@
+.right header{
+    padding: 20px;
+}
+.right header h2{
+    font-size: 2em;
+}
+.right header .title::after{
+    content: '';
+    position: absolute;
+    margin-top: 10px;
+    height: 4px;
+    width: 50px;
+    background: #0424f2;
+}
+.right header nav{
+    float: right;
+    margin-top: -70px;
+}
+.right header nav ul{
+    position: fixed;
+    background: linear-gradient(to bottom, #256af3 0%, #3488f4 100%);
+    border-radius: 20px 0px 0px 20px;
+    display: inline-block;
+    margin-top: 25px;
+    width: 0px;
+    height: 37px;
+    text-align: center;
+    margin-left: -20px;
+    overflow: hidden;
+}
+.right header nav.active ul{
+    width: 320px;
+    margin-left: -340px;
+}
+.right header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+.right header nav ul li a{
+    color: white;
+}
+.right header nav menu{
+    position: fixed;
+    z-index: 9;
+    background: #3488f4;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border: solid 4px #3488f4;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: -35px;
+    cursor: pointer;
+}
+.right header nav menu span{
+    background: white;
+    height: 5px;
+    width: 40px;
+    margin: 6.4px 0;
+    display: block;
+}
+.right header nav.active menu span:nth-child(1){
+    transform: rotate(45deg);
+    margin-top: 20px;
+    width: 45px;
+}
+.right header nav.active menu span:nth-child(2){
+    width: 0;
+    margin-top: -12.8px;
+}
+.right header nav.active menu span:nth-child(3){
+    transform: rotate(-45deg);
+    margin-top: -15px;
+    width: 45px;
+}
+.right .desc{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.right .desc p{
+    line-height: 1.7em;
+    letter-spacing: .02em;
+    font-size: .95em;
+}
+.right .detail{
+    margin-left: -10px;
+    width: calc(100% + 20px);
+    padding: 30px;
+    background: #f1f2f3;
+    /* min-height: 100vh; */
+}
+.right .detail-t{
+    margin: 10px 0;
+}
+.right .detail-t h3{
+    font-size: 1.6em;
+}
+.right .details{
+    width: calc(100% - 40px);
+    margin-left: -30px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.right .skills .details{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.right .details .details-p{
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    height: 75px;
+}
+.right .details .details-p.portfolio{
+    height: unset;
+    padding: 10px 20px 5px 20px;
+}
+.right .skills .details .details-p{
+    height: unset;
+    text-align: center;
+    padding: 20px 15px;
+}
+.right .details .details-p img{
+    width: 40px;
+    float: left;
+    margin: 5px 15px 5px 0px;
+}
+.right .details .details-p.portfolio img{
+    width: calc(100% + 40px);
+    float: unset;
+    margin: -10px 0 10px -20px;
+    border-radius: 10px 10px 0 0;
+}
+.right .skills .details .details-p img{
+    width: unset;
+    max-width: 130px;
+    height: 90px;
+    float: unset;
+    margin: 10px 0 20px 0;
+}
+.xml{
+    height: unset !important;
+    margin: 30px 0 40px 0 !important;
+}
+.apis{
+    width: 100px !important;
+    height: unset !important;
+    margin: -5px 0 5px 0 !important;
+}
+.right .details .details-p.portfolio .details-t{
+    font-size: 1.4em;
+}
+.right .details .details-d{
+    font-size: 0.8em;
+    color: #6e7e91;
+    margin: 10px 0;
+}
+
+.right .details .details-p.portfolio .image-o{
+    margin-top: -110px;
+    margin-bottom: 90px;
+    text-align: center;
+    opacity: 0;
+}
+.right .details .details-p.portfolio:hover .image-o{
+    opacity: 1;
+}
+
+.right .details .details-p.portfolio .image-o a{
+    background: rgba(0, 0, 0, 0.8);
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+footer .links{
+    float: right;
+    padding: 15px 0;
+    font-size: 1.2em;
+}
+footer .a,footer .b{
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+footer .credit{
+    float: left;
+    margin: 15px 0 15px 10px;
+    padding-top: 4px;
+    font-size: .9em;
+}

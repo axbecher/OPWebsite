@@ -1,0 +1,200 @@
+@media (max-width: 1160px){
+    .right .skills .details{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 1010px){
+    .right .detail{
+        margin-left: -10px;
+        width: calc(100% + 50px);
+        padding: 15px;
+    }
+    .right .details .details-p{
+        padding: 15px;
+        margin: 6px;
+        height: 70px;
+    }
+}
+/*@media (max-width: 1024px){
+    .lateralMenu{
+        position: fixed;
+        width: 100%;
+        float:right;
+        margin-left: -435px;
+        margin-top: -10px;   
+    }
+}*/
+@media (max-width: 900px){
+    section{
+        padding: 0 10px;
+    }
+    /*.lateralMenu{
+        position: fixed;
+        width: 100%;
+        float:right;
+        margin-left: -435px;
+        margin-top: -10px;   
+    }*/
+    .left, .right{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: calc(80vh - 60px);
+    }
+    .left{
+        width: 39%;
+        top: 10px;
+    }
+    .gap{
+        width: 1%;
+    }
+    .right{
+        width: 60%;
+    }
+    .left .main span.chip{
+        font-size: .8em;
+        padding: 8px 15px;
+    }
+    .left .add{
+        width: calc(100% - 0px);
+        margin-left: -10px;
+        padding: 1px 10px;
+        text-align: left;
+    }
+    .left .add p{
+        font-size: .9em;
+    }
+    .right .details{
+        grid-template-columns: 1fr;
+    }
+    .right .skills .details{
+        grid-template-columns: 1fr 1fr;
+    }
+    .right .details .details-p{
+        padding: 15px;
+        margin: 7px;
+        height: 50px;
+    }
+    .right .details .details-p img{
+        width: 30px;
+        margin: 10px 15px 20px 5px;
+    }
+    footer .links{
+        width: 100%;
+    }
+    footer .a{
+        float: left;
+        margin: 0;
+    }
+    footer .b{
+        float: right;
+        margin: 0;
+    }
+    footer .credit{
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 624px){
+    section{
+        max-width: unset;
+        display: block;
+    }
+    
+    
+    /* Responsive Menu*/
+    .right header nav ul{
+        margin-left: -20px;
+        margin-top: 25px;
+        position: absolute;
+        width: 0px;
+        height: 37px;
+    }
+    
+    .right header nav menu{
+        margin-top: 20px;
+        margin-left: -35px;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+    }
+
+    
+    .left, .right{
+        display: block;
+        
+    }
+    .left{
+        width: calc(100% - 20px);
+        position: unset;
+    }
+    .gap{
+        width: 1%;
+    }
+    .right{
+        width: calc(100% - 20px);
+        height: max-content;
+        min-height: unset;
+        padding-bottom: unset;
+    }
+    .right .details{
+        padding-bottom: unset;
+    }
+    .right .detail{
+        min-height: max-content;
+    }
+    .right header{
+        padding: 20px 10px;
+    }    
+    .right .desc{
+        padding: 10px;
+    }
+    .right .desc p{
+        line-height: 1.5em;
+        letter-spacing: .03em;
+        font-size: .9em;
+    }
+}
+/*@media (max-width:560px){
+    .lateralMenu{
+        position: fixed;
+        width: 86%;
+        
+        float:right;
+        margin-left: -0px;
+        margin-top: -720px;
+        
+}*/
+@media (max-width: 400px){
+    section{
+        padding: 0 5px;
+    }
+    
+    .left{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .right{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .right .details .details-p{
+        padding: 15px 5px;
+        margin: 5px 0;
+        height: 50px;
+    }
+    .right .skills .details .details-p{
+        margin: 5px 5px;
+    }
+    .right .skills .details .details-p img{
+        height: 55px;
+        max-width: 100px;
+    }
+    .xml{
+        margin: 27px 0 35px 0 !important;
+    }
+    .apis{
+        width: 85px !important;
+    }
+}

@@ -1,0 +1,17 @@
+.right{
+    height: max-content;
+    min-height: unset;
+    padding-bottom: unset;
+}
+
+@media (max-width: 900px){
+    .right{
+        height: max-content !important;
+        min-height: unset;
+        padding-bottom: unset;
+    }
+}
+
+.link-Portofolio:hover{
+    background-color: #256af3; 
+}
